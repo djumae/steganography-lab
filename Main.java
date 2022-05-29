@@ -26,6 +26,6 @@ public class Main {
     Picture copy3 = steg.revealPicture(copy2);
     copy3.explore();
     */
-    System.out.println(Steganography.clearLow(Pixel ));
+    //System.out.println(Steganography.clearLow());
   }
 }

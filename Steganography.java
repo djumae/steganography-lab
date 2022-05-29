@@ -8,14 +8,22 @@ public class Steganography {
 
     public static void clearLow( Pixel p )
     {
-        int count;
         Color rgbNum;
         int rgbRed;
-        int green;
-        int blue;
+        int rgbGreen;
+        int rgbBlue;
         rgbNum = p.getColor();
         rgbRed = rgbNum.getRed();
-        System.out.println(rgbRed);
+        rgbGreen = rgbNum.getGreen();
+        rgbBlue = rgbNum.getBlue();
+        rgbNum.red  = (rgbRed /4) *4;
+        rgbNum.green = (rgbGreen / 4) * 4;
+        rgbNum.blue = (rgbBlue / 4 ) * 4;
+
+        //somehow use the setColor method in Pixel class.
+
+
+
         }
     }
 
