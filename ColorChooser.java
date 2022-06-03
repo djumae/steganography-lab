@@ -38,6 +38,7 @@ public class ColorChooser {
    public static void main(String[] args) {
       Color pickedColor = ColorChooser.pickAColor();
       System.out.println(pickedColor);
+      System.out.println(pickedColor);
    }
 
 }
